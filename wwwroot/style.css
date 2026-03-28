@@ -93,8 +93,8 @@ h1 {
 
 hr {
   border: none;
-  border-top: 1px dashed #ccc;
-  width: 12rem;
+  border-top: 2px solid #1a1a1a;
+  width: 16rem;
   margin: 1.6rem 0;
 }
 
@@ -114,6 +114,31 @@ nav a {
 }
 
 nav a:hover {
+  color: #1a4e8a;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* ── projects ── */
+
+.projects {
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.projects a {
+  font-size: 0.85rem;
+  color: #2266aa;
+  text-decoration: none;
+}
+
+.projects a:hover {
   color: #1a4e8a;
   text-decoration: underline;
   text-underline-offset: 3px;
