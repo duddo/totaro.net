@@ -12,12 +12,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding: 1.5rem 2rem 2rem 1.5rem;
 }
-
-/* ── card ── */
 
 main {
   position: relative;
@@ -77,11 +73,8 @@ main::after {
   image-rendering: pixelated;
 }
 
-/* ── typography ── */
-
 h1 {
   font-size: 1.4rem;
-  font-weight: 700;
   letter-spacing: 0.04em;
 }
 
@@ -98,8 +91,6 @@ hr {
   margin: 1.6rem 0;
 }
 
-/* ── links ── */
-
 nav {
   display: flex;
   flex-wrap: wrap;
@@ -107,19 +98,19 @@ nav {
   gap: 0.3rem 1.4rem;
 }
 
-nav a {
+nav a,
+.projects a {
   font-size: 0.85rem;
   color: #2266aa;
   text-decoration: none;
 }
 
-nav a:hover {
+nav a:hover,
+.projects a:hover {
   color: #1a4e8a;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
-
-/* ── projects ── */
 
 .projects {
   text-align: center;
@@ -130,16 +121,4 @@ nav a:hover {
   font-weight: 700;
   letter-spacing: 0.04em;
   margin-bottom: 0.5rem;
-}
-
-.projects a {
-  font-size: 0.85rem;
-  color: #2266aa;
-  text-decoration: none;
-}
-
-.projects a:hover {
-  color: #1a4e8a;
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
