@@ -82,6 +82,12 @@ h1 {
   font-size: 0.85rem;
   color: #666;
   margin-top: 0.4rem;
+  white-space: nowrap;
+}
+
+.resume {
+  display: block;
+  margin-top: 0.3rem;
 }
 
 hr {
@@ -99,14 +105,16 @@ nav {
 }
 
 nav a,
-.projects a {
+.projects a,
+.resume {
   font-size: 0.85rem;
   color: #2266aa;
   text-decoration: none;
 }
 
 nav a:hover,
-.projects a:hover {
+.projects a:hover,
+.resume:hover {
   color: #1a4e8a;
   text-decoration: underline;
   text-underline-offset: 3px;
